@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@300;700&display=swap");
+
+.jose,
+.basedpee {
+  height: 30vh;
+}
+
+.miguel,
+.delaserg {
+  height: 32vh;
+}
+
+.about-container {
+  font-family: "Mulish", sans-serif;
+  font-weight: lighter;
+}
+
+.picture {
+  display: flex;
+  justify-content: center;
+}
+
+.name {
+  font-size: 1.5em;
+  text-align: center;
+}
+
+.find-socials {
+  text-align: center;
+}
+
+.about-them {
+  text-align: center;
+  font-family: "Mulish", sans-serif;
+  font-weight: lighter;
+}
+
+.jose-link,
+.miguel-link,
+.basedpee-link,
+.delaserg-link {
+  color: black;
+}
+
+.find-them {
+  color: rgb(246, 129, 113);
+  font-size: 1em;
+  text-align: center;
+}

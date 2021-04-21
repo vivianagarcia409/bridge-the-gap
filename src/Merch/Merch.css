@@ -1,0 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap");
+
+.merch-update {
+  margin-top: 200px;
+  margin-bottom: 330px;
+  text-align: center;
+  font-family: "Work Sans", sans-serif;
+  font-size: 1.5em;
+  display: flex;
+}

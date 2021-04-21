@@ -1,0 +1,14 @@
+.footer {
+  margin: 40px 15px 20px 15px;
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.twitter {
+  height: 5vh;
+}
+
+.instagram {
+  height: 5vh;
+}

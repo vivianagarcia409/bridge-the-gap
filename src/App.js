@@ -1,23 +1,25 @@
-import logo from './logo.svg';
 import './App.css';
+import React from 'react';
+import Home from './Home/Home.js';
+import About from './About/About.js';
+import Merch from './Merch/Merch.js';
+import NavBar from './NavBar/NavBar.js';
+import FootNote from './FootNote/FootNote.js';
+import {Switch, Route} from 'react-router-dom';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+    <NavBar />
+      <Switch>
+        <Route exact path="/" render={(props) => <Home {...props} />} />
+        <Route exact path="/about" render={(props) => <About {...props} />} />
+        <Route exact path="/shopmerch" render={(props) => <Merch {...props} />} />
+
+      </Switch>
+      <FootNote />
+
     </div>
   );
 }
